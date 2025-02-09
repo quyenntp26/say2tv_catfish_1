@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"say2tv_catfish_1_atlas_1", frames: [[183,241,55,36],[240,241,55,36],[243,144,182,36],[243,102,200,40],[0,241,92,48],[445,102,67,36],[94,241,87,42],[427,144,79,42],[302,0,100,100],[0,199,468,40],[0,102,241,95],[404,0,100,100],[0,0,300,100]]}
+		{name:"say2tv_catfish_1_atlas_1", frames: [[152,241,55,36],[209,241,55,36],[243,144,182,36],[243,102,200,40],[0,241,92,48],[427,146,67,36],[94,241,56,42],[445,102,64,42],[0,199,468,40],[0,102,241,95],[302,0,100,100],[0,0,300,100],[404,0,100,100]]}
 ];
 
 
@@ -83,35 +83,35 @@ lib.ssMetadata = [
 
 
 
-(lib.arsenal = function() {
+(lib.bg468x40px = function() {
 	this.initialize(ss["say2tv_catfish_1_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.bg468x40px = function() {
+(lib.logov9bet = function() {
 	this.initialize(ss["say2tv_catfish_1_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.logov9bet = function() {
+(lib.mancity = function() {
 	this.initialize(ss["say2tv_catfish_1_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.newcastle = function() {
+(lib.promotion1 = function() {
 	this.initialize(ss["say2tv_catfish_1_atlas_1"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.promotion1 = function() {
+(lib.realmadrid = function() {
 	this.initialize(ss["say2tv_catfish_1_atlas_1"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
@@ -248,7 +248,7 @@ if (reversed == null) { reversed = false; }
 
 	// hdp_2
 	this.instance_2 = new lib.CachedBmp_1();
-	this.instance_2.setTransform(215.25,4.55,0.5,0.5);
+	this.instance_2.setTransform(218.95,4.55,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(90));
 
@@ -260,7 +260,7 @@ if (reversed == null) { reversed = false; }
 
 	// hdp_1
 	this.instance_4 = new lib.CachedBmp_2();
-	this.instance_4.setTransform(13.25,4.55,0.5,0.5);
+	this.instance_4.setTransform(20.85,4.55,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(90));
 
@@ -277,10 +277,10 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(90));
 
 	// retangle_odds
-	this.instance_7 = new lib.arsenal();
+	this.instance_7 = new lib.realmadrid();
 	this.instance_7.setTransform(165,3,0.35,0.35);
 
-	this.instance_8 = new lib.newcastle();
+	this.instance_8 = new lib.mancity();
 	this.instance_8.setTransform(70,3,0.35,0.35);
 
 	this.shape_2 = new cjs.Shape();
